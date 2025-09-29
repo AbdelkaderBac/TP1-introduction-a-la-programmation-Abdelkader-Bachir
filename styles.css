@@ -1,0 +1,53 @@
+/* Fichier styles.css */
+
+/* CSS1 : Le corps/body */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f5; /* Fond très léger */
+    color: #333;
+}
+
+/* CSS 2: Header et navigation*/
+header {
+    background-color: #000000; /* Bleu primaire */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* CSS 3: Les titres */
+h2 {
+    color: #000000; /* Bleu plus foncé */
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+/* CSS 4: Principal et images*/
+main {
+    width: 85%;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* CSS 5: Liens de navigation */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+/* CSS 6: Responsivite*/
+img {
+    max-width: 100%;
+    height: auto;
+    display: block; 
+    margin: 15px 0;
+    border-radius: 5px;
+}
